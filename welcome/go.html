@@ -1,0 +1,111 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+body {
+margin: 0;
+  font-family: Roboto, arial;
+  background: linear-gradient(323deg, rgba(0,96,100,1) 14%, rgba(131,58,180,1) 34%, rgba(25,11,34,1) 55%, rgba(0,0,0,1) 100%);
+
+
+}
+.txtinput {
+  background-image: url('https://fonts.gstatic.com/s/i/materialicons/https/v6/24px.svg?download=false');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: none/*1px solid #ddd8*/;
+  margin-bottom: 12px;
+  border-radius: 0px;
+    transition: 0.1s;
+    font-family: roboto;
+  color: gray;
+    outline: none;
+ /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;*/
+  border-bottom: 1px solid black;
+  
+}
+.txtinput:hover {
+
+ /* background-color: #ededed;*/
+  
+  }
+  .txtinput:focus{
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f7f7f7;*/
+    border-bottom: 4px solid black;
+    /*border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;*/
+    color: black;
+    
+}
+  .submit {
+  background-color: black; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 5px 3px;
+  cursor: pointer;
+  font-family: roboto;
+  border-radius: 3px;
+  }
+  .head {
+  background: white;
+    color: black;
+    font-family: roboto
+ 
+  
+  }
+  .bookmrk {
+    font-family: roboto;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px /*Top*/ 10px /*right*/ 5px /*Bottom*/ 10px; /*Left*/
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .bookmrk:hover {
+    background: #f7f7f7; 
+  }
+  .favicon {}
+  .bmbar {
+    padding: 5px /*Top*/ 5px /*right*/ 5px /*Bottom*/ 5px; /*Left*/
+  }
+  a {
+    text-decoration: none;
+  }
+
+</style>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<body>
+
+<div class="head">
+<input placeholder="Type a URL" class="txtinput" type="text" id="text" autofocus />
+
+<input class="submit" type="button" id="btn" value="Go" onClick="javascript: window.location.replace('' + document.getElementById('text').value);" /><div class="bmbar">
+  
+  <a href="https://www.google.com/webhp?igu=1&safe=active&ssui=on"><span class="bookmrk"><img src="https://www.google.com/s2/favicons?domain=google.com" alt="" width="16" height="16" />Google</span></a>
+  
+  <a href="https://bing.com"><span class="bookmrk"><img src="https://www.google.com/s2/favicons?domain=bing.com" alt="" width="16" height="16" />Bing</span></a>
+  
+  <a href="https://canvas.apps.chrome/"><span class="bookmrk"><img src="https://www.google.com/s2/favicons?domain=https://canvas.apps.chrome/" alt="" width="16" height="16" />Chrome Canvas</span></a>
+  
+  <a href="https://www.webrtc-experiment.com/RecordRTC/simple-demos/"><span class="bookmrk"><img src="https://www.google.com/s2/favicons?domain=https://www.webrtc-experiment.com/RecordRTC/simple-demos/" alt="" width="16" height="16" />RecordRTC Demos</span></a>
+  
+  
+  </div>  
+  
+</div>
+
+ 
